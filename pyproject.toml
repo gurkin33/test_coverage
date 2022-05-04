@@ -1,0 +1,6 @@
+[tool.pytest.ini_options]
+#addopts = "--cov-config=coverage.cfg --cov=."
+addopts = "--cov=."
+testpaths = [
+    "tests",
+]
